@@ -1,11 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+<style type="text/css">
+   body {
+       margin:0; padding:0;
+   }
+   html, body, #bg {
+       height:100%;
+       width:100%;
+   }
+   #bg {
+       position:absolute; 
+       left:0;
+       right:0;
+       bottom:0;
+       top:0;
+       overflow:hidden;
+       z-index:0;
+   }
+   #bg img {
+       width:100%;
+       min-width:100%;
+       min-height:100%;
+   }
+   #content {
+       z-index:1;
+   }
+</style>
+
+//HTML
 <body>
-    <meta charset="UTF-8">
-    <title>Backround Image</title>
-    <head></head>
-    <body background="img/elpaso.jpg">
-    </body>
+<div id="bg">
+   <img style="display:block;" src="img/elpaso.jpg">
+</div>
+<div id="content">
+   //Rest of content
+</div>
+</body>
     
     
     
@@ -88,6 +118,6 @@
 
 </body>
 <img src = "img/album.jpg" height=200 width=200>
-    <audio src="audio/elpaso.mp3" controls preload></audio><h2>El Paso - Marty Robbins</h2>
+    <audio src="audio/elpaso.mp3" controls preload></audio>
     
 </html>
