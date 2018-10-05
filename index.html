@@ -31,6 +31,70 @@ body {
   background-color: #4CAF50;
   color: white;
 }
+body {
+  height: 3000px; /* Used to enable scrolling */
+  background: linear-gradient(55deg, #3366ff 0%, #ffff00 51%, #ff0000 99%);
+}
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
 </style>
 </head>
 <body>
@@ -43,6 +107,17 @@ body {
   <a href="https://noahmcge.github.io/waylon.html">Waylon Jennings</a>
   <a href="https://noahmcge.github.io/page3.html">Testing "yikes.com"</a>
   <a href="https://noahmcge.github.io/page2.html">Testing "loltyler1"</a>
+  <div class="dropdown">
+    <button class="dropbtn">Anime 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="https://vrv.co/">VRV</a>
+      <a href="https://www.cartooncrazy.tv/anime/dragon-ball/">DragonBall</a>
+      <a href="https://www.cartooncrazy.tv/anime/one-punch-man/">OnePunchMan</a>
+      <a href="https://www.cartooncrazy.tv/anime/cowboy-bebop/">Cowboy Bebop</a>
+    </div>
+  </div> 
 </div>
 
 <div style="padding-left:16px">
@@ -124,7 +199,8 @@ body {
 <!-- The four columns -->
 <div class="row">
   <div class="column">
-    <img src="img/goku/32.gif" alt="Goku" style="width:100%" onclick="myFunction(this);">
+    <img src="img/goku/32.gif"alt="Goku" style="width:100%" onclick="myFunction(this);">
+    
 	<div class="centered"><b>Goku!</b></div>
   </div>
   <div class="column">
