@@ -1,3 +1,5 @@
+<html>
+<body>
 <center>
 noahmcge.github.io/#
 <br>
@@ -10,3 +12,5 @@ noahmcge.github.io/page2.html
 <br>
 noahmcge.github.io/page3.html
 </center>
+</body>
+</html>
