@@ -1,8 +1,12 @@
+<center>
 noahmcge.github.io/#
 <br>
 <br>
-unused:
+<b>
+  unused:
+</b>
 <br>
 noahmcge.github.io/page2.html
 <br>
 noahmcge.github.io/page3.html
+</center>
