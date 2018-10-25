@@ -1,5 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
+ <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+</style>
+</head>
+<body>
+<div class="topnav">
+	<a href="https://noahmcge.github.io/#">Home</a>
+  <div class="dropdown">
+    <button class="dropbtn">Marty Robbins 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="https://noahmcge.github.io/martyrobbins.html">Page</a>
+		<audio src="audio/elpaso.mp3" controls preload></audio><ins><b><abbr title="The 1959 Recorded Hit Song by Marty Robbins"> El Paso</abbr></b></ins>
+    </div>
+  </div> 
+  <div class="dropdown">
+    <button class="dropbtn">Johnny Cash 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="https://noahmcge.github.io/cash.html">Page</a>
+		<audio src="audio/cash/homeblues.mp3" controls preload></audio><ins><b>Home of the Blues</b></ins>
+    </div>
+  </div> 
+  <div class="dropdown">
+    <button class="dropbtn">Waylon Jennings 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="https://noahmcge.github.io/waylon.html">Page</a>
+		<audio src="audio/waylon/Theme from  The Dukes of Hazzard  (Good Ol' Boys).mp3" controls preload></audio><ins><b><abbr title="Amazing song">Good Ol' Boys</abbr></b></ins>
+    </div>
+  </div> 
+  <a class="active" href="https://noahmcge.github.io/spanishproject.html">Spanish Project</a>
+  <a href="https://noahmcge.github.io/page3.html">Testing "yikes.com"</a>
+  <a href="https://noahmcge.github.io/page2.html">Testing "loltyler1"</a>
+  <div class="dropdown">
+    <button class="dropbtn">Anime 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="https://vrv.co/">VRV</a>
+      <a href="https://www.cartooncrazy.tv/anime/dragon-ball/">DragonBall</a>
+      <a href="https://www.cartooncrazy.tv/anime/one-punch-man/">OnePunchMan</a>
+      <a href="https://www.cartooncrazy.tv/anime/cowboy-bebop/">Cowboy Bebop</a>
+    </div>
+  </div> 
+</div>
+
+ 
+ 
  
     <style type="text/css">
    body {
@@ -42,79 +171,9 @@
     
 <head>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    
-
     <title>Noah McGehee</title>
-
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <link href="css/simple-sidebar.css" rel="stylesheet">
-
 </head>
 
-<body>
-
-    <div id="wrapper">
-
-        <div id="sidebar-wrapper">
-            <ul class="sidebar-nav">
-                <li class="sidebar-brand">
-                    <a href="#">
-                        Classics
-                    </a>
-                </li>
-                <li>
-                    <a href="https://noahmcge.github.io/#">Marty Robbins</a>
-                </li>
-                <li>
-                    <a href="https://www.youtube.com/playlist?list=PLE92B2EB55DEDDFCB">Johnny Cash</a>
-                </li>
-                <li>
-                    <a href="waylon.html">Waylon Jennings</a>
-                </li>
-                <li>
-                    <a href="https://www.youtube.com/playlist?list=PLL8ypStuqcfD98zXLT-bvbVP2GzgGN1oR">Johnny Horton</a>
-                </li>
-                <li>
-                    <a href="https://www.youtube.com/playlist?list=PL7ODl1BMcwaK9gOXQQiCWloviM2s6Dw41">Jim Croce</a>
-                </li>
-                <li>
-                    <a href="https://www.youtube.com/playlist?list=OLAK5uy_le0qfIV6L-HdmhzUzFBceJ8CCMIQIXufE">George Jones</a>
-                </li>
-                <li>
-                    <a href="page3.html">testing</a>
-                    
-                    <a href="page2.html">more testing</a>
-                </li>
-            </ul>
-        </div>
-
-        <div id="page-content-wrapper">
-            <div class="container-fluid">
-                <h1><b>Johnny CA$H one of the Best Country and Western Singers</b></h1>
-             <h2>Noah McGehee</h2>
-             <p>For Cyber Security Class! and for <i>fun</i> :)</p>
-                <a href="#menu-toggle" class="btn btn-secondary" id="menu-toggle">Menu</a>
-            </div>
-        </div>
-
-    </div>
-
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <script>
-    $("#menu-toggle").click(function(e) {
-        e.preventDefault();
-        $("#wrapper").toggleClass("toggled");
-    });
-    </script>
-
-</body>
  
  <head>
 <style>
