@@ -70,7 +70,8 @@ padding:5px 0;
 
 /* Typography
 ================================================== */
-
+h5 { color:white; font-weight:200; }
+h5 { font-size:18px; line-height:20px; margin:4px 0 20px; }
 h1,h6,p { color:black; font-weight:200; }
 h1 { font-size:42px; line-height:44px; margin:20px 0 0; }
 h6 { font-size:18px; line-height:20px; margin:4px 0 20px; }
@@ -240,7 +241,7 @@ html[data-useragent*="Chrome"][data-useragent*="Android"] .plSel:hover { backgro
 audio { width:526px; }
 html[data-useragent*="MSIE 9.0"] audio { width:536px; }
 html[data-useragent*="MSIE 10.0"] audio { width:543px; }
-html[data-useragent*="rv:11.0"] audio { width:551px; }
+html[data-useragent*="rv:11.0"] audio { width:551px; }//archive.org/download/mythium/
 html[data-useragent*="OS 7"] audio { width:546px; }
 html[data-useragent*="OS 8"] audio { width:550px; }
 html[data-useragent*="OS 9"] audio { width:550px; }
