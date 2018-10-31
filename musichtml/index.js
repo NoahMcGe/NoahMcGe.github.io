@@ -17,7 +17,7 @@ jQuery(function ($) {
     if (supportsAudio) {
         var index = 0,
             playing = false,
-            mediaPath = 'audio/',
+            mediaPath = 'https://noahmcge.github.io/audio/',
             extension = '',
             tracks = [{
                 "track": 1,
