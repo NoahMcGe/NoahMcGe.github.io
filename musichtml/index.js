@@ -93,44 +93,44 @@ jQuery(function ($) {
                 "file": "waylon/I've Always Been Crazy"
             }, {
                 "track": 16,
-                "name": "Big River (alt) - Johnny Cash",
+                "name": "Big River (ALT) - Johnny Cash",
                 "length": "03:12",
                 "file": "cash/bigriveralt"
             }, {
                 "track": 17,
-                "name": "Song - Singer",
-                "length": "10:47",
-                "file": "PVD_T"
+                "name": "Cold Lonesome Morning - Johnny Cash",
+                "length": "03:23",
+                "file": "cash/coldlonesomemorning"
             }, {
                 "track": 18,
-                "name": "Song - Singer",
+                "name": "Come in Stranger (ALT) - Johnny Cash",
                 "length": "05:37",
-                "file": "PVD_TSOWA"
+                "file": "cash/cometrangeralt"
             }, {
                 "track": 19,
-                "name": "Song - Singer",
-                "length": "02:49",
-                "file": "SSB01_08_04_ATI"
+                "name": "Home of The Blues - Johnny Cash",
+                "length": "02:46",
+                "file": "cash/homeblues"
             }, {
                 "track": 20,
-                "name": "Song - Singer",
-                "length": "05:46",
-                "file": "SSB01_08_04_M"
+                "name": "The Night Hank Williams Came to Town - Johnny Cash",
+                "length": "03:22",
+                "file": "thenight"
             }, {
                 "track": 21,
-                "name": "Song - Singer",
-                "length": "13:08",
-                "file": "SSB06_06_03_BTPE"
+                "name": "Straight A's in Love - Johnny Cash",
+                "length": "02:14",
+                "file": "cash/love"
             }, {
                 "track": 22,
-                "name": "Song - Singer",
-                "length": "05:16",
-                "file": "SSB06_06_03_I"
+                "name": "Wabash Cannonball - Johnny Cash",
+                "length": "02:39",
+                "file": "wabashcannonball"
             }, {
                 "track": 23,
-                "name": "Song - Singer",
+                "name": "Born to be a Roughneck - Johnny Cash",
                 "length": "05:47",
-                "file": "SSB06_06_03_M"
+                "file": "roughneck"
             }, {
                 "track": 24,
                 "name": "Song - Singer",
