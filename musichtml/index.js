@@ -58,7 +58,7 @@ jQuery(function ($) {
                 "file": "marty/woman"
             }, {
                 "track": 9,
-                "name": "Mammas Don't Let Your Babies Grow up to Be Cowboys (Remastered) - Waylon Jennings",
+                "name": "Mammas Don't Let Your Babies Grow up to Be Cowboys - Waylon Jennings",
                 "length": "02:32",
                 "file": "waylon/Mammas Don't Let Your Babies Grow up to Be Cowboys (Remastered)"
             }, {
