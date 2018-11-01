@@ -43,7 +43,7 @@ jQuery(function ($) {
                 "file": "marty/five"
             }, {
                 "track": 6,
-                "name": "A Good Gearted Woman - Marty Robbins",
+                "name": "A Good Hearted Woman - Marty Robbins",
                 "length": "04:05",
                 "file": "marty/good"
             }, {
