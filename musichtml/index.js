@@ -104,7 +104,7 @@ jQuery(function ($) {
             }, {
                 "track": 18,
                 "name": "Come in Stranger (ALT) - Johnny Cash",
-                "length": "05:37",
+                "length": "02:00",
                 "file": "cash/cometrangeralt"
             }, {
                 "track": 19,
@@ -129,7 +129,7 @@ jQuery(function ($) {
             }, {
                 "track": 23,
                 "name": "Born to be a Roughneck - Johnny Cash",
-                "length": "05:47",
+                "length": "02:09",
                 "file": "roughneck"
             }, {
                 "track": 24,
