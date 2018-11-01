@@ -26,79 +26,79 @@ jQuery(function ($) {
                 "file": "marty/elpaso"
             }, {
                 "track": 2,
-                "name": "Song - Singer",
+                "name": "All Around Cowboy - Marty Robbins",
                 "length": "08:31",
-                "file": "BS_TF"
+                "file": "marty/allaround"
             }, {
                 "track": 3,
-                "name": "Song - Singer",
-                "length": "05:02",
-                "file": "BS_ATKM"
+                "name": "El Paso City - Marty Robbins",
+                "length": "04:11",
+                "file": "marty/elpasocity"
             }, {
                 "track": 4,
-                "name": "Song - Singer",
-                "length": "08:32",
-                "file": "BSFM_TF"
+                "name": "The First Song that Wasn't the Blues - Marty Robbins",
+                "length": "03:09",
+                "file": "marty/1stsong"
             }, {
                 "track": 5,
-                "name": "Song - Singer)",
-                "length": "05:05",
-                "file": "BSFM_ATKM"
+                "name": "Five Brothers - Marty Robbins)",
+                "length": "02:13",
+                "file": "marty/five"
             }, {
                 "track": 6,
-                "name": "Song - Singer",
-                "length": "02:49",
-                "file": "AC_ATI"
+                "name": "A Good Gearted Woman - Marty Robbins",
+                "length": "04:05",
+                "file": "marty/good"
             }, {
                 "track": 7,
-                "name": "Song - Singer",
-                "length": "05:45",
-                "file": "AC_ATKMTake_1"
+                "name": "Bound For Old Mexico - Marty Robbins",
+                "length": "03:00",
+                "file": "marty/olmexico"
             }, {
                 "track": 8,
-                "name": "Song - Singer",
-                "length": "05:27",
-                "file": "AC_ATKMTake_2"
+                "name": "Devil Woman - Marty Robbins",
+                "length": "02:53",
+                "file": "marty/woman"
             }, {
                 "track": 9,
-                "name": "Song - Singer",
-                "length": "05:46",
-                "file": "AC_M"
+                "name": "Mammas Don't Let Your Babies Grow up to Be Cowboys (Remastered) - Waylon Jennings",
+                "length": "02:32",
+                "file": "waylon/Mammas Don't Let Your Babies Grow up to Be Cowboys (Remastered)"
             }, {
                 "track": 10,
-                "name": "Song - Singer",
-                "length": "05:25",
-                "file": "AC_TSOWAfucked_up"
+                "name": "Theme from  The Dukes of Hazzard  (Good Ol' Boys) - Waylon Jennings",
+                "length": "02:09",
+                "file": "waylon/Theme from  The Dukes of Hazzard  (Good Ol' Boys)"
             }, {
                 "track": 11,
-                "name": "Song - Singer",
-                "length": "05:54",
-                "file": "PNY04-05_M"
+                "name": "I'm a Ramblin' Man - Waylon Jennings",
+                "length": "02:46",
+                "file": "waylon/Waylon Jennings - I'm a Ramblin' Man"
             }, {
                 "track": 12,
-                "name": "Song - Singer",
-                "length": "04:41",
-                "file": "PNY04-05_OTW"
+                "name": "Ladies Love Outlaws - Waylon Jennings",
+                "length": "02:31",
+                "file": "waylon/Waylon Jennings - Ladies Love Outlaws"
             }, {
                 "track": 13,
-                "name": "Song - Singer",
-                "length": "13:17",
-                "file": "PNY04-05_T"
+                "name": "Luckenbach Texas - Waylon Jennings",
+                "length": "03:20",
+                "file": "waylon/Waylon Jennings Luckenbach Texas"
             }, {
                 "track": 14,
-                "name": "Song - Singer",
-                "length": "08:13",
-                "file": "PNY04-05_TF"
+                "name": "Lonesome, On'ry and Mean - Waylon Jennings",
+                "length": "03:38",
+                "file": "waylon/Lonesome, On'ry and Mean"
             }, {
                 "track": 15,
-                "name": "Song - Singer",
-                "length": "07:03",
-                "file": "PNY04-05_TSOWA"
+                "name": "I've Always Been Crazy - Waylon Jennings",
+                "length": "04:11",
+                "file": "waylon/I've Always Been Crazy"
             }, {
                 "track": 16,
-                "name": "Song - Singer",
-                "length": "05:44",
-                "file": "PVD_M"
+                "name": "Big River (alt) - Johnny Cash",
+                "length": "03:12",
+                "file": "cash/bigriveralt"
             }, {
                 "track": 17,
                 "name": "Song - Singer",
