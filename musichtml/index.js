@@ -125,77 +125,77 @@ jQuery(function ($) {
                 "track": 22,
                 "name": "Wabash Cannonball - Johnny Cash",
                 "length": "02:39",
-                "file": "wabashcannonball"
+                "file": "cash/wabashcannonball"
             }, {
                 "track": 23,
                 "name": "Born to be a Roughneck - Johnny Cash",
                 "length": "02:09",
-                "file": "roughneck"
+                "file": "cash/roughneck"
             }, {
                 "track": 24,
-                "name": "Song - Singer",
-                "length": "04:52",
-                "file": "SSB06_06_03_ME"
+                "name": "There's No Wings On My Angel - Marty Robbins",
+                "length": "02:41",
+                "file": "marty/No Wings On My Angel"
             }, {
                 "track": 25,
-                "name": "Song - Singer",
-                "length": "08:44",
-                "file": "SSB06_06_03_TF"
+                "name": "Battle of New Orleans - Johnny Horton",
+                "length": "02:28",
+                "file": "horton/Battle of New Orleans, In 1814"
             }, {
                 "track": 26,
-                "name": "Song - Singer",
-                "length": "03:01",
-                "file": "SSB12_28_03_ATI"
+                "name": "Sink The Bismarck - Johnny Horton",
+                "length": "03:13",
+                "file": "horton/Sink The Bismarck - Johnny Horton"
             }, {
                 "track": 27,
-                "name": "Song - Singer",
-                "length": "06:10",
-                "file": "SSB12_28_03_M"
+                "name": "Honky-Tonk Man - Johnny Horton",
+                "length": "02:14",
+                "file": "horton/Johnny Horton - Honky-Tonk Man"
             }, {
                 "track": 28,
-                "name": "Song - Singer",
-                "length": "05:06",
-                "file": "SSB12_28_03_ME"
+                "name": "I'm A One Woman Man - Johnny Horton",
+                "length": "02:13",
+                "file": "horton/Johnny Horton ~ I'm A One Woman Man"
             }, {
                 "track": 29,
-                "name": "Song - Singer",
-                "length": "12:33",
-                "file": "SSB12_28_03_T"
+                "name": "The Electrified Donkey - Johnny Horton",
+                "length": "02:23",
+                "file": "horton/Johnny Horton - The Electrified Donkey"
             }, {
                 "track": 30,
-                "name": "Song - Singer",
-                "length": "08:57",
-                "file": "SSB12_28_03_TF"
+                "name": "A Rainbow In My Hand - Doyle Holly",
+                "length": "02:50",
+                "file": "doyle/Doyle Holly  A Rainbow In My Hand"
             }, {
                 "track": 31,
-                "name": "Song - Singer",
-                "length": "04:55",
-                "file": "SSB___11_03_ATITake_1"
+                "name": "Lonestar Hotel - Doyle Holly",
+                "length": "04:00",
+                "file": "doyle/Doyle Holly - Lonestar Hotel"
             }, {
                 "track": 32,
-                "name": "Song - Singer",
-                "length": "05:46",
-                "file": "SSB___11_03_ATITake_2"
+                "name": "Sold American - Doyle Holly",
+                "length": "02:28",
+                "file": "doyle/Doyle Holly - Sold American"
             }, {
                 "track": 33,
-                "name": "Song - Singer",
-                "length": "14:06",
-                "file": "SSB___11_03_BTPETake_1"
+                "name": "Lila - Doyle Holly",
+                "length": "02:46",
+                "file": "doyle/Doyle Holly  Lila"
             }, {
                 "track": 34,
-                "name": "Song - Singer",
-                "length": "13:26",
-                "file": "SSB___11_03_BTPETake_2"
+                "name": "Ava Maria Morales - Marty Robbins",
+                "length": "04:26",
+                "file": "marty/019. Ava Maria Morales"
             }, {
                 "track": 35,
-                "name": "Song - Singer",
-                "length": "08:38",
-                "file": "SSB___11_03_TFTake_1"
+                "name": "Girl With Gardenias in Her Hair - Marty Robbins",
+                "length": "02:38",
+                "file": "marty/023. The Girl With Gardenias in Her Hair"
             }, {
                 "track": 36,
-                "name": "Song - Singer",
-                "length": "08:37",
-                "file": "SSB___11_03_TFTake_2"
+                "name": "In the Valley of the Rio Grande - Marty Robbins",
+                "length": "02:25",
+                "file": "marty/026. In the Valley of the Rio Grande"
             }],
             trackCount = tracks.length,
             npAction = $('#npAction'),
