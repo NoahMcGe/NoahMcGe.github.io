@@ -2,7 +2,7 @@
 <html>
 	<title>NoahMcGe</title>
 <head>
-	<!--website icon start-->
+		<!--website icon start-->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="apple-touch-icon" sizes="57x57" href="icon/apple-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="60x60" href="icon/apple-icon-60x60.png">
@@ -22,9 +22,8 @@
 <meta name="msapplication-TileImage" content="icon/ms-icon-144x144.png">
 	<!--website icon end-->
 <meta name="theme-color" content="#ffffff">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-	<!--Navbar css start-->
+
+<!--Navbar css start-->
 <style>
 body {
   margin: 0;
@@ -53,6 +52,10 @@ body {
 .topnav a.active {
   background-color: #4CAF50;
   color: white;
+}
+body {
+  height: 2000px; /* Used to enable scrolling */
+  background: linear-gradient(1deg, #00FF44 0%, #00F2FF 51%, #F400FF 99%);
 }
 .navbar {
     overflow: hidden;
@@ -116,12 +119,13 @@ body {
 }
 </style>
 	<!--Navbar css end-->
-	<!--Background cssstart-->
+
+
+<!--Background cssstart-->
 <style>
 * {
     box-sizing: border-box;
 }
-
 body {
     margin: 0;
     font-family: Arial;
@@ -131,7 +135,6 @@ a {
 	font-weight: bold;
 	font-size: 20px;
 }
-
 #myVideo {
     position: fixed;
     right: 0;
@@ -140,7 +143,6 @@ a {
     min-height: 100%;
     z-index: -1;
 }
-
 .content {
     position: fixed;
     bottom: 0;
@@ -149,7 +151,6 @@ a {
     width: 100%;
     padding: 20px;
 }
-
 #myBtn {
     width: 200px;
     font-size: 18px;
@@ -159,63 +160,66 @@ a {
     color: #fff;
     cursor: pointer;
 }
-
 #myBtn:hover {
     background: #ddd;
     color: black;
 }
 </style>
-	<!--Background css end-->
+</head>
+<!--Background css end-->
+
 <body>
-	<!--Navigation Bar start-->
+	
+	<!--Background start-->
+<video autoplay muted loop id="myVideo">
+  <source src="https://noahmcge.github.io/paper/My-Hero-Academia-Anime-HD-Live-Wallpaper.mp4" type="video/mp4" style= z-index: -1;>
+  Your browser does not support HTML5 video.
+</video>
+<script>
+var video = document.getElementById("myVideo");
+var btn = document.getElementById("myBtn");
+function myFunction() {
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "Pause";
+  } else {
+    video.pause();
+    btn.innerHTML = "Play";
+  }
+}
+</script>
+<!--Background end-->
+
+<!--Navigation Bar start-->
 <div class="topnav">
   <a href="https://noahmcge.github.io/#">Home</a>
-  <a class="active" href="https://noahmcge.github.io/music.html">Music(not finished)</a>
-  <div class="dropdown">
-    <button class="dropbtn">Marty Robbins 
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="https://noahmcge.github.io/martyrobbins.html">Page</a>
-		<audio src="audio/elpaso.mp3" controls preload></audio><ins><b><abbr title="The 1959 Recorded Hit Song by Marty Robbins"> El Paso</abbr></b></ins>
-    </div>
-  </div> 
-  <div class="dropdown">
-    <button class="dropbtn">Johnny Cash 
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="https://noahmcge.github.io/cash.html">Page</a>
-		<audio src="audio/cash/homeblues.mp3" controls preload></audio><ins><b>Home of the Blues</b></ins>
-    </div>
-  </div> 
-  <div class="dropdown">
-    <button class="dropbtn">Waylon Jennings 
-      <i class="fa fa-caret-down"></i>
-    </button>
-    <div class="dropdown-content">
-      <a href="https://noahmcge.github.io/waylon.html">Page</a>
-		<audio src="audio/waylon/Theme from  The Dukes of Hazzard  (Good Ol' Boys).mp3" controls preload></audio><ins><b><abbr title="Amazing song">Good Ol' Boys</abbr></b></ins>
-    </div>
-  </div> 
+  
+  <a href="https://noahmcge.github.io/musictest.html">Music</a>
+  
   <a href="https://noahmcge.github.io/spanishproject.html">Spanish Project</a>
-  <a href="https://noahmcge.github.io/la.html">Notes(school)</a>
+  
+  <a href="https://noahmcge.github.io/la.html">Notes (school)</a>
+  
+  <a href="https://github.com/NoahMcGe">GitHub</a>
+  
   <a href="http://tritechsc.org/">TriTech</a>
-    <!--Drop Down Start-->
+  
+  <!--Drop Down Start Anime-->
   <div class="dropdown">
     <button class="dropbtn">Anime 
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-		<a href="https://noahmcge.github.io/anime.html">My Anime (Not Finished)</a>
+		<a class="active" href="https://noahmcge.github.io/anime.html">My Anime (Not Finished)</a>
 		<a href="https://vrv.co/">VRV</a>
 		<a href="https://www.cartooncrazy.tv/anime/dragon-ball/">DragonBall</a>
 		<a href="https://www.cartooncrazy.tv/anime/one-punch-man/">OnePunchMan</a>
 		<a href="https://www.cartooncrazy.tv/anime/cowboy-bebop/">Cowboy Bebop</a>
     </div>
   </div> 
-  <!--Drop Down End-->
-      <!--Drop Down Start Other-->
+  <!--Drop Down End Anime-->
+  
+    <!--Drop Down Start Other-->
   <div class="dropdown">
     <button class="dropbtn">Other 
       <i class="fa fa-caret-down"></i>
@@ -229,32 +233,6 @@ a {
     </div>
   </div> 
   <!--Drop Down End Other-->
+  
 </div>
 <!--Navigation Bar end-->
-<!--Background start-->
-<video autoplay muted loop id="myVideo">
-  <source src="https://noahmcge.github.io/paper/mt_light_loop.mp4" type="video/mp4" style= z-index: -1;>
-  Your browser does not support HTML5 video.
-</video>
-
-<script>
-var video = document.getElementById("myVideo");
-var btn = document.getElementById("myBtn");
-
-function myFunction() {
-  if (video.paused) {
-    video.play();
-    btn.innerHTML = "Pause";
-  } else {
-    video.pause();
-    btn.innerHTML = "Play";
-  }
-}
-</script>
-<!--Background end-->
-
-
-
-
-
-</body>
