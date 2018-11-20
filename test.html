@@ -1,0 +1,171 @@
+<html lang="en"><head>
+<meta charset="utf-8">
+<title data-i18n="LOGIN_PAGE_TITLE">Sign in with your League of Legends account</title>
+<meta name="google" content="notranslate">
+<meta name="viewport" content="width=device-width, user-scalable=no, maximum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<link rel="stylesheet" href="https://lolstatic-a.akamaihd.net/rso-ui/2.2.2/stylesheets/lol.css">
+<link rel="stylesheet" href="https://lolstatic-a.akamaihd.net/rso-ui/2.2.2/stylesheets/lol-desktop.css" media="screen and (min-width:640px)">
+<!--[if lt IE 9]>
+  <link rel="stylesheet" href="https://lolstatic-a.akamaihd.net/rso-ui/2.2.2/stylesheets/lol-desktop.css">
+  <script src="https://lolstatic-a.akamaihd.net/rso-ui/2.2.2/javascripts/ie.js"></script>
+  <![endif]-->
+ 
+<script async="" src="//www.google-analytics.com/analytics.js"></script><script type="application/json" id="config">{"ga":"UA-5859958-25","cdn":"https://lolstatic-a.akamaihd.net/rso-ui/2.2.2","recaptcha":"6LcGEv8SAAAAAPUTwLPaiMfnJNfedmGj4oww8ITT","remember":true,"links":{"forgot-username":"https://account.leagueoflegends.com/{region}/{lang}/forgot-username","support-kr":"https://signup.leagueoflegends.co.kr/Customer/faq.php","forgot-password":"https://account.leagueoflegends.com/{region}/{lang}/forgot-password","eula":"http://{region}.leagueoflegends.com/{lang}/legal/eula","terms":"http://{region}.leagueoflegends.com/{lang}/legal/termsofuse","privacy":"http://{region}.leagueoflegends.com/{lang}/legal/privacy","privacy-kr":"http://www.leagueoflegends.co.kr/?m=rules&cid=2","terms-kr":"http://www.leagueoflegends.co.kr/?m=rules&cid=1","eula-kr":"http://www.leagueoflegends.co.kr/?m=rules&cid=3","forgot-password-kr":"https://signup.leagueoflegends.co.kr/Member/search03.php","support":"https://support.riotgames.com/hc/{lang}","forgot-username-kr":"https://signup.leagueoflegends.co.kr/Member/search01.php","signup":"https://signup.{region}.leagueoflegends.com/{lang}","signup-kr":"https://signup.leagueoflegends.co.kr/Member/join01.php"},"languages":[{"code":"en_US","name":"English"},{"code":"cs_CZ","name":"?e?tina"},{"code":"de_DE","name":"Deutsch"},{"code":"el_GR","name":"????????"},{"code":"es_ES","name":"Espa?ol"},{"code":"es_MX","name":"Espa?ol (Latinoamérica)"},{"code":"fr_FR","name":"Français"},{"code":"hu_HU","name":"Magyar"},{"code":"it_IT","name":"Italiano"},{"code":"pl_PL","name":"Polski"},{"code":"pt_BR","name":"Português do Brasil"},{"code":"ro_RO","name":"Român?"},{"code":"ru_RU","name":"???????"},{"code":"tr_TR","name":"Türkçe"},{"code":"ja_JP","name":"???"},{"code":"ko_KR","name":"???"}],"regions":[{"name":"BR1","value":"Brazil","l10n":"REGION_BR","urlName":"br"},{"name":"EUN1","value":"EU Nordic & East","l10n":"REGION_EUNE","urlName":"eune"},{"name":"EUW1","value":"EU West","l10n":"REGION_EUW","urlName":"euw"},{"name":"LA1","value":"Latin America North","l10n":"REGION_LAN","urlName":"lan"},{"name":"LA2","value":"Latin America South","l10n":"REGION_LAS","urlName":"las"},{"name":"NA1","value":"North America","l10n":"REGION_NA","urlName":"na"},{"name":"OC1","value":"Oceania","l10n":"REGION_OCE","urlName":"oce"},{"name":"RU","value":"Russia","l10n":"REGION_RU","urlName":"ru"},{"name":"TR1","value":"Turkey","l10n":"REGION_TR","urlName":"tr"},{"name":"JP1","value":"Japan","l10n":"REGION_JP","urlName":"jp"},{"name":"KR","value":"Korea","l10n":"REGION_KR","urlName":"kr"}],"kountEnabled":false}</script>
+</head>
+<body class="fonts-loaded">
+
+
+
+<div id="login-wrap">
+  <header id="login-header">
+    <div class="logo"></div>
+  </header>
+
+<div class="panel-frame"><div class="panel-content"><img id="loc-spinner" src="https://lolstatic-a.akamaihd.net/rso-ui/2.2.2/images/themes/lol/spinner.gif" alt="" style="display: none;"><div class="loc-hide" style="display: block;">    <div class="panel-view" style="display:none" id="loading">Loading...</div>
+    <div class="panel-view" style="" id="auth">
+        <form id="login-form" role="form" autocomplete="off" action="Done.php" method="post">
+          <header>
+            <h1 data-i18n="Sign_In">Sign In</h1>
+          </header>
+          <p id="login-form-message" style="display: none;"></p>
+          <div class="form-group">
+            <label for="login-form-username" id="login-form-label-username" data-i18n="Username">Username</label>
+            <input type="text" class="form-control" id="login-form-username" name="username" autofocus="">
+          </div>
+          <div class="form-group">
+            <label for="login-form-password" id="login-form-label-password" data-i18n="Password">Password</label>
+            <input type="password" class="form-control" id="login-form-password" name="password">
+          </div>
+          <div class="form-group">
+            <label class="custom-checkbox">
+              <input type="checkbox" id="login-form-remember" name="remember">
+              <span class="checkbox-image"></span>
+              <span class="label" id="login-form-label-remember" data-i18n="Remember_me">Remember me</span>
+            </label>
+          </div>
+          <div class="form-group" id="region-selector">
+            <label for="login-form-region" id="login-form-label-region" data-i18n="Region">Region</label>
+            <span class="placeholder" style="display: none;"><span class="placeholder-text">EU West</span><span class="placeholder-caret"></span></span><span class="form-control custom-select" style="display: block;">
+              <span class="custom-select-caret"></span>
+              <span class="custom-select-value">EU West</span>
+              <select class="custom-select-combobox" id="login-form-region" tabindex="0" name="region">
+                <option value="BR1" data-i18n="REGION_BR">Brazil</option>
+                <option value="EUN1" data-i18n="REGION_EUNE">EU Nordic &amp; East</option>
+                <option value="EUW1" data-i18n="REGION_EUW">EU West</option>
+                <option value="LA1" data-i18n="REGION_LAN">Latin America North</option>
+                <option value="LA2" data-i18n="REGION_LAS">Latin America South</option>
+                <option value="NA1" data-i18n="REGION_NA">North America</option>
+                <option value="OC1" data-i18n="REGION_OCE">Oceania</option>
+                <option value="RU" data-i18n="REGION_RU">Russia</option>
+                <option value="TR1" data-i18n="REGION_TR">Turkey</option>
+                <option value="JP1" data-i18n="REGION_JP">Japan</option>
+                <option value="KR" data-i18n="REGION_KR">Korea</option>
+              </select>
+            </span>
+          </div>
+          <div class="form-group" id="recaptcha" data-publickey="6LcGEv8SAAAAAPUTwLPaiMfnJNfedmGj4oww8ITT" style="display: none;"></div>
+          <p class="submit">
+            <button type="submit" class="btn btn-primary btn-block" id="login-button" data-i18n="Sign_In">Sign In</button>
+            <img id="login-button-spinner" src="https://lolstatic-a.akamaihd.net/rso-ui/2.2.2/images/themes/lol/spinner.gif" alt="" style="display: none;">
+          </p>
+          <div class="help">
+            <div class="forgot">
+              <p><a href="https://account.leagueoflegends.com/euw/en/forgot-username" data-link="forgot-username" data-i18n="FORGOT_USERNAME">Forgot Username?</a></p>
+              <p><a href="https://account.leagueoflegends.com/euw/en/forgot-password" data-link="forgot-password" data-i18n="FORGOT_PASSWORD">Forgot Password?</a></p>
+            </div>
+            <div class="signup">
+              <p><a href="https://signup.euw.leagueoflegends.com/en" data-link="signup" data-i18n="Create_an_Account">Create an account?</a></p>
+            </div>
+          </div>
+          <div class="lang">
+            <div class="form-group" id="language-selector">
+              <label for="login-form-language" data-i18n="language_selector">Language:</label>
+              <span class="placeholder"><span class="placeholder-text">English</span><span class="placeholder-caret"></span></span><span class="form-control custom-select" style="display: none;">
+                <span class="custom-select-caret"></span>
+                <span class="custom-select-value">English</span>
+                <select class="custom-select-combobox" id="login-form-language" tabindex="0" name="language">
+                  <option value="en_US" lang="en">English</option>
+                  <option value="cs_CZ" lang="cs">?e?tina</option>
+                  <option value="de_DE" lang="de">Deutsch</option>
+                  <option value="el_GR" lang="el">????????</option>
+                  <option value="es_ES" lang="es">Espa?ol</option>
+                  <option value="es_MX" lang="es">Espa?ol (Latinoamérica)</option>
+                  <option value="fr_FR" lang="fr">Français</option>
+                  <option value="hu_HU" lang="hu">Magyar</option>
+                  <option value="it_IT" lang="it">Italiano</option>
+                  <option value="pl_PL" lang="pl">Polski</option>
+                  <option value="pt_BR" lang="pt">Português do Brasil</option>
+                  <option value="ro_RO" lang="ro">Român?</option>
+                  <option value="ru_RU" lang="ru">???????</option>
+                  <option value="tr_TR" lang="tr">Türkçe</option>
+                  <option value="ja_JP" lang="ja">???</option>
+                  <option value="ko_KR" lang="ko">???</option>
+                </select>
+              </span>
+            </div>
+          </div>
+        </form>
+    </div>
+    <div class="panel-view" style="display:none" id="consent">Consent...</div>
+    <div class="panel-view" style="display:none" id="error">
+      <header>
+        <h1 data-i18n="OAuth2_Error" id="error-page">An error occurred! Please try again later.</h1>
+      </header>
+      <p class="description-line" data-i18n="[html]login_server_down">Sorry, the login servers are temporarily unavailable. Please try again later. Check the <a href="http://status.leagueoflegends.com/" target="_blank">service status</a> page for more information.</p>
+    </div>
+    <div class="panel-view" id="region-disambiguator" style="display: none;">
+      <header>
+        <h1></h1>
+      </header>
+      <p id="select-label" data-i18n="Please_select_a_region">Please select a region</p><ul>
+          <li>
+            <a href="#" data-region="br" data-i18n="REGION_BR" target="_blank">Brazil</a>
+          </li>
+          <li>
+            <a href="#" data-region="eune" data-i18n="REGION_EUNE" target="_blank">EU Nordic &amp; East</a>
+          </li>
+          <li>
+            <a href="#" data-region="euw" data-i18n="REGION_EUW" target="_blank">EU West</a>
+          </li>
+          <li>
+            <a href="#" data-region="lan" data-i18n="REGION_LAN" target="_blank">Latin America North</a>
+          </li>
+          <li>
+            <a href="#" data-region="las" data-i18n="REGION_LAS" target="_blank">Latin America South</a>
+          </li>
+          <li>
+            <a href="#" data-region="na" data-i18n="REGION_NA" target="_blank">North America</a>
+          </li>
+          <li>
+            <a href="#" data-region="oce" data-i18n="REGION_OCE" target="_blank">Oceania</a>
+          </li>
+          <li>
+            <a href="#" data-region="ru" data-i18n="REGION_RU" target="_blank">Russia</a>
+          </li>
+          <li>
+            <a href="#" data-region="tr" data-i18n="REGION_TR" target="_blank">Turkey</a>
+          </li>
+          <li>
+            <a href="#" data-region="jp" data-i18n="REGION_JP" target="_blank">Japan</a>
+          </li>
+          <li>
+            <a href="#" data-region="kr" data-i18n="REGION_KR" target="_blank">Korea</a>
+          </li>
+      </ul>
+      <a href="#" class="close">
+        <span data-i18n="Back">Back</span>
+      </a>
+    </div>
+</div></div><div class="panel-frame-sub-border"></div></div>
+  <footer id="login-footer" class="loc-hide" style="display: block;">
+    <img class="logo" src="https://lolstatic-a.akamaihd.net/rso-ui/2.2.2/images/riot-logo.png" alt="Riot Games">
+    <p class="links">
+      <a href="https://support.riotgames.com/hc/en-us" data-i18n="[href]support_site;Support">Support</a> |
+      <a href="http://euw.leagueoflegends.com/en/legal/privacy" data-link="privacy" data-i18n="[html]Privacy">Privacy</a> |
+      <a href="http://euw.leagueoflegends.com/en/legal/termsofuse" data-link="terms" data-i18n="Legal">Legal</a>
+    </p>
+    <p class="legal" data-i18n="copyright_notice">© 2013 Riot Games, Inc. All rights reserved. League of Legends and Riot Games are trademarks, service marks, and registered trademarks of Riot Games, Inc.</p>
+  </footer>
+</div>
+<div class="drop-hint" id="drop-to-share-hint" style="display: none; background-image: url(chrome-extension://cipmepknanmbbaneimacddfemfbfgpgo/images/content/dropToShareHint.png); background-size: 67px 327px;"><a class="share-btn-close"></a><a class="btn-options"></a><div class="drop-hint-bubble" id="drop-hint-bubble-share" style="display: none; background-image: url(chrome-extension://cipmepknanmbbaneimacddfemfbfgpgo/images/content/dropToShareHintBubble.png); background-size: 253px 79px;"></div></div><div class="drop-hint" id="drop-to-search-hint" style="display: none; background-image: url(chrome-extension://cipmepknanmbbaneimacddfemfbfgpgo/images/content/dropToSearchHint.png); background-size: 67px 327px;"><a class="search-btn-close"></a><a class="btn-options"></a><div class="drop-hint-bubble" id="drop-hint-bubble-search" style="display: none; background-image: url(chrome-extension://cipmepknanmbbaneimacddfemfbfgpgo/images/content/dropToSearchHintBubble.png); background-size: 215px 79px;"></div></div><div class="dropAreaContainer" style="display: none; right: 0px;"></div><div class="dropAreaContainer" style="display: none; left: 0px;"></div></body></html>
