@@ -1,0 +1,22 @@
+<center><div class="faq_container">
+   <div class="faq">
+      <div class="faq_question"><font size="6">Games?</font></div>
+           <div class="faq_answer_container">
+              <div class="faq_answer"><font size="5">Super SMASH BROTHERS!, Fable, Harvest Moon.</font></div>
+           </div>
+           <br>
+   <div class="faq">
+      <div class="faq_question"><font size="6">Anime?</font></div>
+           <div class="faq_answer_container">
+              <div class="faq_answer"><font size="5">Dragonball,  Re Zero, Cowboy Bebop, One Punch Man, Darling in the franxx </font></div>
+           </div>
+           <br>
+   <div class="faq">
+      <div class="faq_question"><font size="6">Contact Me / Email / Discord</font></div>
+           <div class="faq_answer_container">
+              <div class="faq_answer"><font size="5">Email : corphos111@gmail.com , Discord : NoahMcGehee#9518, Discord SERVER : https://discord.gg/ZFJV3ky</font></div>
+           </div>       
+    </div>
+ </div>
+ </center>
+ <!-- FAQ END -->

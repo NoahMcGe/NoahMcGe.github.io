@@ -1,0 +1,23 @@
+.bg1, .bg2, .bg3, .bg4 {
+	width:100%;
+	min-width:100%;
+	min-height:100%;
+	height:100%;
+	width:100%;
+	background-size:cover;
+	z-index:-1;
+	background-attachment: fixed;
+
+}
+.bg1 {
+    background-image: url(//img/paper/macos-high-sierra-default-wallpaper-fall-mountain-scene-1.jpg);
+}
+.bg2 {
+    background-image: url(//img/paper/DMDIKcyWsAEsKDj.jpg);
+}
+.bg3 {
+    background-image: url(//img/paper/clouds-country-daylight-371633.jpg);
+}
+.bg4 {
+    background-image: url(//img/paper/apple_mountain-wallpaper-1920x1080.jpg);
+}
