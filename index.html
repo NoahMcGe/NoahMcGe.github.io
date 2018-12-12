@@ -35,7 +35,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 	<!--Alert end-->
 </head>
-<body id="bod" onload="backgr()">
+<body id="bod" onload="backgr()" style="height: 2500px;">
 	
 	<!--Navigation Bar start-->
 <div class="topnav">
@@ -79,6 +79,7 @@
   </div>
 <!--Alert End-->
 <br>
+<!--Profile Card Start-->
 <center>
 <div class="card" style="width:400px">
     <img class="card-img-top" src="https://scontent-sea1-1.xx.fbcdn.net/v/t1.0-9/24900193_492943467751792_4721207288991431914_n.jpg?_nc_cat=101&_nc_ht=scontent-sea1-1.xx&oh=e8833c7935852ebad713e13d874af325&oe=5C9E1241" alt="Card image" style="width:100%">
@@ -90,7 +91,50 @@
     </div>
   </div>
 </center>
+<!--Profile Card End-->
+<br>
 
+<!-- Snake Start -->
+<style>
+.snake-brd{
+  background-color:rgb(147,112,219,0.7);
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-right: 25%;
+  margin-left: 25%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-radius: 25px;
+}
+	</style>
+<div class="snake-brd">
+  <head>
+    <link rel="stylesheet" type="text/css" href="snake/snake.css" />
+  </head>
+  <body>
+    <h2><center>
+        JavaScript snake game written by <a href="http://patorjk.com/">Patrick Gillespie</a> (not me)
+    </center></h2>
+    <div id="game-area" tabindex="0" style="display: table; margin: 0 auto"></div>
+    <script type="text/javascript" src="snake/snake.js"></script>
+    <script type="text/javascript">
+        var mySnakeBoard = new SNAKE.Board( {
+            boardContainer: "game-area",
+            fullScreen: false,
+            width: 580,
+            height: 400
+        });
+    </script>
+    <center><div>
+  <h2><b>Leaderboard</b></h2>
+  
+  <div>
+  <a href="https://youtu.be/MXcsdqSPVE0"><div><h3>Noah : 416</h3><p>"Video Proof"</p></div></a>
+	  </div>
+  </div></center>
+  </body>
+</div>
+ <!-- Snake End -->
 	</body>
 
 
