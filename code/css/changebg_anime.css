@@ -1,4 +1,4 @@
-.bg1, .bg2, .bg3, .bg4 {
+.bg1, .bg2, .bg3, .bg4, .bg5, .bg6, .bg7 , .bg8 , .bg9 , .bg10 , .bg11 , .bg12  {
 	width:100%;
 	min-width:100%;
 	min-height:100%;
@@ -20,4 +20,28 @@
 }
 .bg4 {
     background-image: url(http://i.imgur.com/ndI4k3S.jpg);
+}
+.bg5 {
+    background-image: url(https://www.imgbase.info/images/safe-wallpapers/anime/one_punch_man/56055_one_punch_man.jpg);
+}
+.bg6 {
+    background-image: url(https://wallpapertag.com/wallpaper/full/c/a/9/20313-attack-on-titan-wallpaper-1920x1080-hd.jpg);
+}
+.bg7 {
+    background-image: url(https://wallpapercave.com/wp/wp1893653.jpg);
+}
+.bg8 {
+    background-image: url(https://wallpapertag.com/wallpaper/full/7/3/e/275773-vertical-attack-on-titan-wallpaper-1920x1080.jpg);
+}
+.bg9 {
+    background-image: url(https://www.ps4wallpapers.com/wp-content/uploads/2017/06/PS4Wallpapers.com_51041_dragon_ball_z.jpg);
+}
+.bg10 {
+    background-image: url(http://images6.fanpop.com/image/photos/40300000/FMA-Wallpaper-fullmetal-alchemist-brotherhood-anime-40307098-1920-1080.jpg);
+}
+.bg11 {
+    background-image: url(https://i.imgur.com/sGhXE4J.jpg);
+}
+.bg12 {
+    background-image: url(https://wallpapertag.com/wallpaper/full/3/b/6/596272-vertical-cowboy-bebop-spike-wallpaper-1920x1200-for-iphone-5s.jpg);
 }
