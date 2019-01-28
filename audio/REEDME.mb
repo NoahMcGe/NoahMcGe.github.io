@@ -1,1 +1,3 @@
-reedme
+make sure to install ffmpeg should have preinstalled with ubuntu
+commands:
+ffplay
