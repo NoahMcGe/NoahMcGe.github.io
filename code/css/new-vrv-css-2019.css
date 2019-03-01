@@ -14901,7 +14901,7 @@ body.state-scroll-fixed {
 
 @media screen and (min-width:64em) {
     .bottom-home-container .combo-pack-section {
-        min-height: 70.875rem
+        min-height: 121.875rem
     }
     .bottom-home-container .combo-pack {
         position: absolute;
