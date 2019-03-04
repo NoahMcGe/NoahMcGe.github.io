@@ -6664,7 +6664,7 @@ screen and (min-width:35.5em) and (max-height:50rem) {
 }
 
 .erc-password-field.icon:before {
-    background: url(/assets/svg/input/bosskey.svg) no-repeat
+    background: url(vrv.co/assets/svg/input/bosskey.svg) no-repeat
 }
 
 .erc-password-field.icon .toggle-password-visibility,
