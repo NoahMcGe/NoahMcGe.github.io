@@ -1,4 +1,3 @@
 # NoahMcGe.github.io
-# A project I made for class ended up really enjoying it!
-# Made mostly in HTML, CSS.
-# Not all of the code I used was my own, I used various websites to get ideas and learn from.
+# This is a huge project using git pages that lets me have a static website.
+# The website is going to be filled with all of my other projects and things about me :)
