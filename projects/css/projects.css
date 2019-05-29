@@ -1,0 +1,103 @@
+html {
+    font-size: 16px
+}
+
+body,
+html {
+    height: 100%;
+    font-family: rubik, Helvetica Neue, helvetica, sans-serif;
+    font-weight: 400;
+    color: #302e42;
+    overflow-anchor: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+body {
+    background-color: #1b1a26
+}
+
+.erc-watchlist .content {
+    max-width: 65.63rem;
+    padding: 3.75rem 2.5rem;
+    margin: 0 auto;
+    position: relative;
+    font-size: 16px;
+}
+.erc-watchlist .watchlist-title {
+    font-size: 1.5rem;
+    font-family: markpro, Helvetica Neue, helvetica, sans-serif;
+    font-weight: 500;
+    line-height: 1.42;
+    text-rendering: optimizeLegibility;
+    color: #f9f9fa
+}
+.erc-cards-collection {
+    margin: 0 -.9375rem 2.8125rem
+    display: flex;
+	flex-wrap: wrap;
+}
+ .erc-cards-collection .card {
+    padding: .9375rem;
+    flex: 0 0 33.33%
+}
+.erc-series-movie-card {
+    background: #302e42;
+    position: relative;
+    width: 100%;
+    height: 18.75rem
+}
+.erc-series-movie-card .erc-channel-icon {
+    position: absolute;
+    z-index: 3;
+    right: .625rem;
+    top: .625rem;
+    height: 1.875rem;
+    width: 1.875rem;
+    border-radius: .9375rem;
+    background-color: #fff;
+    transition: width .3s cubic-bezier(1, 0, 0, 1.2);
+    white-space: nowrap;
+    cursor: pointer
+}
+.erc-series-movie-card .h-thumbnail {
+    height: 11.75rem
+}
+.h-thumbnail {
+    border-bottom: .125rem solid;
+    position: relative;
+    background-color: #1b1a26
+}
+.c-content-image {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+}
+.erc-series-movie-card .body-section {
+    padding: 0 0 1.25rem 7.875rem
+    display: flex;
+	position: relative;
+	margin: 0 1.25rem;
+	height: 6.875rem;
+	box-sizing: border-box;
+	z-index: 1;
+}
+.erc-series-movie-card .info {
+    padding-top: 1rem;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between
+}
+.bg {
+	width:100%;
+	min-width:100%;
+	min-height:100%;
+	height:100%;
+	width:100%;
+	background-size:cover;
+	z-index:-1;
+	background-attachment: fixed;
+	background-image: url(projects/img/rose.svg);
+}
