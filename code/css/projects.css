@@ -1222,7 +1222,7 @@ svg:not(:root) {
 }
 
 .erc-series-movie-card .h-thumbnail {
-    height: 11.75rem
+    height: 12.75rem
 }
 
 .erc-episode-card .h-thumbnail {
@@ -8337,8 +8337,7 @@ screen and (min-width:35.5em) and (max-height:50rem) {
 .erc-series-movie-card .body-section {
     display: flex;
     position: relative;
-    margin: 0 1.25rem;
-    height: 6.875rem;
+    height: 1.875rem;
     padding: 0 0 1.25rem 6.25rem;
     box-sizing: border-box;
     z-index: 1
@@ -8422,7 +8421,7 @@ screen and (min-width:35.5em) and (max-height:50rem) {
     }
 
     .erc-series-movie-card .body-section {
-        padding: 0 0 1.25rem 7.875rem
+        padding: 0 0 1.25rem 2.875rem
     }
 }
 
