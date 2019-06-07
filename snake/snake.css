@@ -16,11 +16,11 @@ body {
 #game-area:focus { outline: none; }
 
 a.snake-link, a.snake-link:link, a.snake-link:visited {
-  color: #87BEFF; 
+  color: #FCFC54; 
 }
 
 a.snake-link:hover {
-  color: #87BEFF; 
+  color: #FfFf54; 
 }
 
 
@@ -54,7 +54,7 @@ a.snake-link:hover {
 .snake-food-block {
     margin: 0px;
     padding: 0px;
-    background-color: #29FF00;
+    background-color: #FF0000;
     border: 0px solid #000080;
     position: absolute;
 }
